@@ -40,20 +40,22 @@ int main() {
 		receive.pop();
 		int payamount = p.first;
 		int receiveamount = r.first;
-
+		int transactamount = 0;
 		if (payamount == receiveamount) {
-			cout << p.second << "pays " << receiveamount << "to " << r.second << endl;
+			transactamount = payamount;
 		}
 		else if (payamount < receiveamount) {
-			cout << p.second << "pays " << payamount << "to " << r.second << endl;
 			receiveamount -= payamount;
 			receive.push(make_pair(receiveamount, r.second));
+			transactamount = payamount;
 		}
 		else {
-			cout << p.second << "pays " << receiveamount << "to " << r.second << endl;
 			payamount -= receiveamount;
 			pay.push(make_pair(payamount, p.second));
+			transactamount = receiveamount;
 		}
+		cout << p.second << " pays " << transactamount << " to " << r.second << endl;
+
 	}
 
 	return 0;
