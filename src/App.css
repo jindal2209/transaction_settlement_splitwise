@@ -1,0 +1,16 @@
+.custom_input {
+  -webkit-transition: all .4s ease-out;
+	-moz-transition: all .4s ease-out;
+	-ms-transition: all .4s ease-out;
+	-o-transition: all .4s ease-out;
+	transition: all .4s ease-out;
+  border: none;
+  border-bottom: 1px solid rgb(155, 155, 155);
+  width: 140px;
+  text-align: center;
+  outline: none;
+}
+
+.custom_input:focus {
+  border: 1px solid lightblue !important;
+}
