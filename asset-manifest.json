@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/transaction_settlement_splitwise/static/css/main.1765c6ad.chunk.css",
+    "main.js": "/transaction_settlement_splitwise/static/js/main.8569dff8.chunk.js",
+    "main.js.map": "/transaction_settlement_splitwise/static/js/main.8569dff8.chunk.js.map",
+    "runtime-main.js": "/transaction_settlement_splitwise/static/js/runtime-main.4b08bfb2.js",
+    "runtime-main.js.map": "/transaction_settlement_splitwise/static/js/runtime-main.4b08bfb2.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/transaction_settlement_splitwise/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.895a77ed.chunk.js": "/transaction_settlement_splitwise/static/js/2.895a77ed.chunk.js",
+    "static/js/2.895a77ed.chunk.js.map": "/transaction_settlement_splitwise/static/js/2.895a77ed.chunk.js.map",
+    "static/js/3.377c010e.chunk.js": "/transaction_settlement_splitwise/static/js/3.377c010e.chunk.js",
+    "static/js/3.377c010e.chunk.js.map": "/transaction_settlement_splitwise/static/js/3.377c010e.chunk.js.map",
+    "index.html": "/transaction_settlement_splitwise/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/transaction_settlement_splitwise/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.1765c6ad.chunk.css.map": "/transaction_settlement_splitwise/static/css/main.1765c6ad.chunk.css.map",
+    "static/js/2.895a77ed.chunk.js.LICENSE.txt": "/transaction_settlement_splitwise/static/js/2.895a77ed.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4b08bfb2.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.895a77ed.chunk.js",
+    "static/css/main.1765c6ad.chunk.css",
+    "static/js/main.8569dff8.chunk.js"
+  ]
+}
