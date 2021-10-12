@@ -54,12 +54,15 @@ function App() {
 					color: "lightgreen",
 					highlightStrokeColor: "blue",
 					fontSize: 12,
+					fontColor: 'white',
+					labelPosition: 'top' 
 				},
 				link: {
 					highlightColor: "lightblue",
 					renderLabel: true,
 					labelProperty: "weight",
 					fontSize: 12,
+					fontColor: 'white'
 				},
 				directed: true,
 				height: 300,
@@ -111,12 +114,12 @@ function App() {
 	}
 
 	return (
-		<div className="App">
+		<div className="App bgdark">
 			<div className="container-fluid">
-				<h1 className='text-center mb-5 pt-3'>Splitwise Transaction Settlement Algorithm</h1>
+				<h1 className='text-center mb-5 pt-3 text-light'>Splitwise Transaction Settlement Algorithm <a href='https://github.com/jindal2209/transaction_settlement_splitwise' target='_blank' rel='noreferrer'><img className='float-end' src='https://jindal2209.github.io/Sorting_Visualizer/iff.png' alt='fork-on-github'/></a></h1>
 				<div className="row">
 					<div className="col-md-6 p-2">
-						<table className='table table-bordered table-striped table-responsive'>
+						<table className='table table-dark table-bordered border-light table-hover table-responsive'>
 							<thead className='text-center border-none'>
 								<tr>
 									<th>Payer</th>
@@ -128,9 +131,9 @@ function App() {
 									<td colSpan='5' className='text-muted p-1' style={{ 'fontSize': '11px' }}>Enter the transaction data (names are<b> not </b> case sensitive)</td>
 								</tr>
 								<tr>
-									<td><input type='text' className='custom_input' value={payer} onChange={(e) => setPayer(e.target.value)} /></td>
-									<td><input type='text' className='custom_input' value={payee} onChange={(e) => setPayee(e.target.value)} /></td>
-									<td><input type='number' className='custom_input' value={amount} onChange={(e) => setAmount(e.target.value)} /></td>
+									<td><input type='text' className='custom_input' value={payer} onChange={(e) => setPayer(e.target.value)} placeholder='enter payer' /></td>
+									<td><input type='text' className='custom_input' value={payee} onChange={(e) => setPayee(e.target.value)} placeholder='enter payee' /></td>
+									<td><input type='number' className='custom_input' value={amount} onChange={(e) => setAmount(e.target.value)} placeholder='enter amount' /></td>
 									<td><button onClick={addData} className='btn fe-bold btn-outline-primary btn-sm'><i className="fas fa-plus-square"></i></button></td>
 								</tr>
 							</thead>
