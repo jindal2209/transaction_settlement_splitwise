@@ -33,14 +33,17 @@ int main() {
 		}
 	}
 
+	// both will get empty at same time because every transaction has one payer and receiver
 	while (!receive.empty() && !pay.empty()) {
 		auto p = pay.top();
 		auto r = receive.top();
 		pay.pop();
 		receive.pop();
+
 		int payamount = p.first;
 		int receiveamount = r.first;
 		int transactamount = 0;
+		
 		if (payamount == receiveamount) {
 			transactamount = payamount;
 		}
